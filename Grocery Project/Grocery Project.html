@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Project</title>
+    <link rel="stylesheet"href="GroceryProject">
+    <style>
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/vg.jpg');
+    /* height: 60%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.left{
+    position: absolute;
+    /* border: 2px solid red; */
+     left: 20px;
+    top: 10px;
+    width: 10%;
+    height: 10%;
+}
+.mid1{
+    /* border: 2px solid green; */
+    position: absolute;
+    padding: auto;
+    right: 850px;
+    top: 10px;
+    width:10% ;
+    display: table;
+
+}
+
+
+.mid2{
+    /* border: 2px solid yellow; */
+    /* display: inline-block; */
+    position: absolute;
+    padding: 10px;
+    right: 650px;
+    top: 10px; 
+    width: 10%;
+    color: hotpink;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.mid3{
+    /* border: 2px solid violet; */
+    border-radius: 10px;
+    position: absolute;
+    display:  block;
+    right:450px;
+    top: 10px;
+    padding: 10px;
+    width: 10%;
+}
+
+.right{
+    /* border:2px solid blue; */
+    border-radius: 5px;
+    position: absolute;
+    display: inline-block;
+    right: 40px;
+    top:10px;
+    padding: auto;
+    width: 10%;
+}
+.navbar{
+
+}
+ li{
+display: inline-block;
+
+}
+
+.navbar li a{
+    display: inline-block;
+    color: yellow;
+    text-decoration: none;
+    padding:auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar li a :hover{
+    color: hotpink;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+
+}
+.btn{
+    margin: 0px 5px;
+    padding: 5px 14px;
+    background-color:hotpink;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn :hover{
+    color: brown;
+}
+.container{
+     border: 5px solid firebrick;
+     border-radius: 20px;
+    margin: 200px  10px;
+    padding:80px;
+    width: 30%;
+    background-color: grey;
+    bottom: 30px;
+    color: gold;
+    cursor: pointer;
+    
+}
+.fart{   display: inline-block;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+     text-align:none;
+}
+
+    </style>
+</head>
+<body>
+ <header class="header">
+     <div class="left">
+         <img src="img/bag.jpg" alt="">
+
+     </div>
+<div class="left">
+
+</div>
+<div class="mid1">
+    <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About us </a> </li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact us</a></li>
+
+    </ul>
+
+</div>
+<div class="mid2">
+    <img src="img/200w.webp">
+</div>
+<div class="mid3">
+    <input type="text">
+Ask Your Query
+</div>
+<div class="right">
+    <button class="btn" > CALL US NOW</button>    
+    <button class="btn" > EMAIL US</button>    
+</div>
+</header>
+  <div class="container">
+      <h5>CONFIRM YOUR ORDER WITH REQIRED QUANTITY</h5>
+potato:<input type="checkbox">
+      <input type="number">
+      <br>
+      
+potloes: <input type="checkbox">
+         <input type="number">
+      <br>
+   Ginger:  <input  type="checkbox">
+            <input type="number">
+      <br>
+  Onion: <input type="checkbox">
+         <input type="number">
+      <br>
+    Garlic:  <input type="checkbox">
+             <input type="number">
+      <br>
+      <b href="#">More</b>
+      </div>
+      <footer>
+          <div class="fart">
+          <a href="#">Like us on facebook </a>
+        <br>
+         <a href="#">Like us on instagram</a>
+
+      </footer>
+    </div>
+
+  
+</body>
+</html>
